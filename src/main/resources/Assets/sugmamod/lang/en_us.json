@@ -1,3 +1,8 @@
 {
-  "item.sugmamod.cock": "Cock"
+  "item.sugmamod.cock": "Cock",
+  "item.sugmamod.toilet_paper": "Toilet Paper",
+
+  "block.sugmamod.cock_block": "Cock Block",
+
+  "creativemodetab.sugma_tab": "Sugma Tab"
 }

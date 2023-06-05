@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "sugmamod:item/cock"
+    "layer0": "sugmamod:item/toilet_paper"
   }
 }

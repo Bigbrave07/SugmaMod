@@ -1,5 +1,7 @@
 package com.Bigbrave.SugmaMod;
 
+import com.Bigbrave.SugmaMod.block.ModBlocks;
+import com.Bigbrave.SugmaMod.item.ModCreativeModeTabs;
 import com.Bigbrave.SugmaMod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -24,6 +26,8 @@ public class SugmaMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -38,6 +42,16 @@ public class SugmaMod
     {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.COCK);
+            event.accept(ModItems.TOILET_PAPER);
+        }
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.COCK_BLOCK);
+        }
+
+        if(event.getTab() == ModCreativeModeTabs.SUGMA_TAB) {
+            event.accept(ModItems.COCK);
+            event.accept(ModItems.TOILET_PAPER);
+            event.accept(ModBlocks.COCK_BLOCK);
         }
     }
 

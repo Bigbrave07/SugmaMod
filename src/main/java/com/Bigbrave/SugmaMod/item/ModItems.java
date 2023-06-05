@@ -1,6 +1,7 @@
 package com.Bigbrave.SugmaMod.item;
 
 import com.Bigbrave.SugmaMod.SugmaMod;
+import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SugmaMod.MODID);
 
     public static final RegistryObject<Item> COCK = ITEMS.register("cock",
+            () -> new Item(new Item.Properties().food(Foods.BEEF)));
+
+    public static final RegistryObject<Item> TOILET_PAPER = ITEMS.register("toilet_paper",
             () -> new Item(new Item.Properties()));
 
 
