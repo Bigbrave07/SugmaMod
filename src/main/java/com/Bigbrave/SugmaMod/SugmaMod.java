@@ -47,11 +47,21 @@ public class SugmaMod
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.COCK_BLOCK);
         }
+        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.COCK_ORE);
+            event.accept(ModBlocks.DEEPSLATE_COCK_ORE);
+            event.accept(ModBlocks.ENDSTONE_COCK_ORE);
+            event.accept(ModBlocks.NETHERRACK_COCK_ORE);
+        }
 
         if(event.getTab() == ModCreativeModeTabs.SUGMA_TAB) {
             event.accept(ModItems.COCK);
             event.accept(ModItems.TOILET_PAPER);
             event.accept(ModBlocks.COCK_BLOCK);
+            event.accept(ModBlocks.COCK_ORE);
+            event.accept(ModBlocks.DEEPSLATE_COCK_ORE);
+            event.accept(ModBlocks.ENDSTONE_COCK_ORE);
+            event.accept(ModBlocks.NETHERRACK_COCK_ORE);
         }
     }
 

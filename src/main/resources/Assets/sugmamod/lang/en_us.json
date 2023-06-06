@@ -1,8 +1,12 @@
 {
-  "item.sugmamod.cock": "Cock",
-  "item.sugmamod.toilet_paper": "Toilet Paper",
+  "item.sugmamod.cock": "Pinkussy Ingot",
+  "item.sugmamod.toilet_paper": "Pink Ore",
 
-  "block.sugmamod.cock_block": "Cock Block",
+  "block.sugmamod.cock_block": "Pinkussy Block",
+  "block.sugmamod.cock_ore":  "Pink Ore",
+  "block.sugmamod.deepslate_cock_ore":  "Pink Deepslate Ore",
+  "block.sugmamod.netherrack_cock_ore": "Pink Netherrack Ore",
+  "block.sugmamod.endstone_cock_ore": "Pink Endstone Ore",
 
   "creativemodetab.sugma_tab": "Sugma Tab"
 }

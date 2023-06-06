@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sugmamod:cock_block"
+    }
+  ],
+  "result": {
+    "item": "sugmamod:cock",
+    "count": 9
+  }
+}
